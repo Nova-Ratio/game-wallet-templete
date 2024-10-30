@@ -44,13 +44,13 @@ export default function Page(): JSX.Element {
         removeEventListener,
         unload,
     } = useUnityContext({
-        loaderUrl: "webgl/matchTest.loader.js",
-        dataUrl: "webgl/matchTest.data",
-        frameworkUrl: "webgl/matchTest.framework.js",
-        codeUrl: "webgl/matchTest.wasm",
-        productName: "Gecko Party",
-        productVersion: "0.0.1",
-        companyName: "TheWeekend",
+        loaderUrl: "", //
+        dataUrl: "", //
+        frameworkUrl: "", //
+        codeUrl: "", //
+        productName: "", //
+        productVersion: "", //
+        companyName: "", //
     });
     const CheckAuth = useCallback(() => {
         if (!account.bech32Address) {
@@ -114,7 +114,7 @@ export default function Page(): JSX.Element {
     return (
         <main className="m-auto flex min-h-screen max-w-l flex-col items-center justify-center gap-4 p-4">
             <h1 className="text-2xl font-bold tracking-tighter text-white">
-                GECKO PARTY TEST
+                Game Wallet Templete
             </h1>
             {account.bech32Address ? null : (
                 <>

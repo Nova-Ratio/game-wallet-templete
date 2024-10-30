@@ -7,8 +7,8 @@ import Providers from "./context/Provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Gecko Party",
-  description: "Ready To Rumble?",
+  title: "Game Wallet Templete",
+  description: "Enjoy using it!",
 };
 
 export default function RootLayout({
